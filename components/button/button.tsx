@@ -7,4 +7,5 @@ const Button: React.FC<ButtonProps> = (props) => {
 }
 
 export default Button
+// 如果你导出的是type，会保证在编译去掉，可以进行更好的优化
 export type { ButtonProps }

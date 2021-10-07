@@ -1938,7 +1938,7 @@
     ts-dedent "^2.0.0"
     util-deprecate "^1.0.2"
 
-"@storybook/addon-essentials@^6.3.8":
+"@storybook/addon-essentials@^6.3.10":
   version "6.3.10"
   resolved "https://registry.npmmirror.com/@storybook/addon-essentials/download/@storybook/addon-essentials-6.3.10.tgz#c8e515291ce119796cc19eb323cfdd347c612195"
   integrity sha1-yOUVKRzhGXlswZ6zI8/dNHxhIZU=
@@ -2427,7 +2427,7 @@
     react-docgen-typescript "^2.0.0"
     tslib "^2.0.0"
 
-"@storybook/react@^6.3.8":
+"@storybook/react@^6.3.10":
   version "6.3.10"
   resolved "https://registry.npmmirror.com/@storybook/react/download/@storybook/react-6.3.10.tgz?cache=0&other_urls=https%3A%2F%2Fregistry.npmmirror.com%2F%40storybook%2Freact%2Fdownload%2F%40storybook%2Freact-6.3.10.tgz#af065ea32a051244065920df4e86029f65dba2c3"
   integrity sha1-rwZeoyoFEkQGWSDfToYCn2XbosM=

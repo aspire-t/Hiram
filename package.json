@@ -4,7 +4,12 @@
   "description": "React 组件库",
   "main": "index.js",
   "scripts": {
-    "test": "webpack"
+    "build": "webpack",
+    "storybook": "start-storybook",
+    "build-storybook": "build-storybook",
+    "test:unit": "jest --config unit.jest.js",
+    "test:e2e": "jest --config e2e.jest.js",
+    "test": "npm run test:unit && npm run test:e2e"
   },
   "publishConfig": {
     "access": "public",
@@ -14,7 +19,9 @@
     "type": "git",
     "url": "git@git.zhlh6.cn:aspire-t/Hiram.git"
   },
-  "keywords": ["react"],
+  "keywords": [
+    "react"
+  ],
   "author": "aspire-t",
   "license": "MIT",
   "files": [
@@ -39,8 +46,8 @@
     "@babel/runtime": "^7.15.4",
     "@commitlint/cli": "^13.1.0",
     "@commitlint/config-conventional": "^13.1.0",
-    "@storybook/addon-essentials": "^6.3.8",
-    "@storybook/react": "^6.3.8",
+    "@storybook/addon-essentials": "^6.3.10",
+    "@storybook/react": "^6.3.10",
     "@types/enzyme": "^3.10.9",
     "@types/jest": "^27.0.1",
     "@types/jest-environment-puppeteer": "^4.4.1",
